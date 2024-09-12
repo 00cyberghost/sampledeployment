@@ -16,7 +16,7 @@ const HowItWorks = () => {
           justifyContent="center"
           spacing={0.5}
           flexWrap="wrap">
-            <Typography variant='h3'>Here's How it Works:</Typography>
+            <Typography variant='h3'>Here is How it Works:</Typography>
           </Stack>
 
           <Stack direction="row" mt="1.5rem" flexWrap="wrap" alignItems="center" justifyContent="center" spacing={2.5}>
@@ -47,7 +47,7 @@ const HowItWorks = () => {
             <Card sx={{background:"transparent",boxShadow: "none"}}>
                 <CardContent  sx={{paddingBottom: "15px", textAlign: "center"}}>
                     <Typography variant='h6' sx={{fontSize: "20px !important"}}>They Get Same-Day Delivery</Typography>
-                    <Typography color="#9CA7B0" fontWeight="500" variant='caption'>We deliver to your loved ones'home</Typography>
+                    <Typography color="#9CA7B0" fontWeight="500" variant='caption'>We deliver to your loved ones home</Typography>
                 </CardContent>
                 <CustomImageContainer
                 src={group3.src}
